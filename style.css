@@ -1,8 +1,20 @@
 .content {
-  
+
+
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 20px;
+
+}
+
+body {
+background-image:url(images/machinelearning.jpg);
+  background-size: cover;
+
+}
+
+.content h2 {
+  color: red;
 
 }
 
