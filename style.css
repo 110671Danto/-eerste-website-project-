@@ -1,5 +1,5 @@
 .content {
-
+  color:white;
 
   margin-left: 200px;
   margin-right: 200px;
@@ -12,12 +12,6 @@ background-image:url(images/machinelearning.jpg);
   background-size: cover;
 
 }
-
-.content h2 {
-  color: red;
-
-}
-
 
 
 .sidenav {
