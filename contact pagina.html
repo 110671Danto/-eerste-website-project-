@@ -27,21 +27,40 @@
      </h3>
 
      <form>
-       <label for="naam">naam:</label> <br>
-       <input type="text" required> <br> <br>
-       <label for="E-mail">E-mail:</label> <br> 
-       <input type="email" required> <br> <br>
-       <label for="telefoonnummer">telefoonnummer:><label> <br>
+       <label 
+       for="naam">naam:</label> <br>
+       <input 
+       type="text" name="naam" id="naam" required> <br> <br>
+        
+       <label 
+       for="E-mail">E-mail:</label> <br> 
+       <input 
+       type="email" name="email" id="email" required> <br> <br>
+       
+       <label for="telefoonnummer">telefoonnummer:<label> <br>
        <input type="tel" placeholder="12-34-567-891" 
        pattern="[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{3}" 
-       required> ><br>
-       <input type="submit" >
+       name="telefoonnummer" id="telefoonnummer" required> <br> <br>
        
-       > <br> <br>
 
+       <label 
+       for="land">land:</label> <br>
+       <input 
+       list="landen" name="land" id="land" required>
+       <datalist id="landen" >
+         <option value="Nederland" >
+         <option value="Verenigde Staten" >
+         <option value="Duitsland" >
+         <option value="Frankrijk" >
+         <option value="België" > 
+         <option value="Engeland" >
+      </datalist>
+      <br> 
+      <br>
 
-
-     </form>
+       <input type="submit" >  <br> <br>
+        
+</form>
 
      </div>
     <script src="script.js"></script>
