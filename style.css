@@ -25,6 +25,12 @@ table {
   
 }
 
+table caption {
+  font-size: 1.7vw; 
+  background-color: #008dc9; 
+
+}
+
 td, th {
   border: 2px solid #000000;
   text-align: left;
@@ -34,14 +40,13 @@ td, th {
 
 body {
 background-image:url(machinelearning.jpg);
-
-  background-size: cover;
-  background-color: black
+background-size: cover;
+background-color: black;
 
 }
 
 body {
-background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)) , url(machinelearning.jpg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(machinelearning.jpg);
 
 }
 
