@@ -1,11 +1,17 @@
 .content {
-  color:white;
-  text-shadow: 2px 2px #000000;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
   margin-left: 15vw;
   margin-right: 15vw;
   padding-left: 20px;
 
 }
+
+.contact_pagina {
+  font-size: 2vw;
+  
+}
+
 
 table {
   font-family: arial, sans-serif;
@@ -24,6 +30,7 @@ td, th {
 body {
 background-image:url(machinelearning.jpg);
   background-size: cover;
+  
 
 }
 
@@ -60,10 +67,10 @@ background-image:url(machinelearning.jpg);
 .content {
 margin-left: 0vw;
 }
-
+ 
 .sidenav {
   
-  margin-top: 85vh;
+  margin-top: 84vh;
   position: fixed;
   width: 100vw
 
@@ -71,7 +78,7 @@ margin-left: 0vw;
 }
 
 .link {
-  width: 33%;
+  width: 25%;
   float: left;
 
 }
