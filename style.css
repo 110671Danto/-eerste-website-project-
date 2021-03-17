@@ -1,5 +1,5 @@
 .content {
-  color: #c2c1c1;
+  color: #ffffff;
   text-shadow: 1px 1px #000000;
   margin-left: 15vw;
   margin-right: 15vw;
@@ -34,11 +34,16 @@ td, th {
 
 body {
 background-image:url(machinelearning.jpg);
+
   background-size: cover;
-  
+  background-color: black
 
 }
 
+body {
+background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)) , url(machinelearning.jpg);
+
+}
 
 .sidenav {
   height: 100%;
